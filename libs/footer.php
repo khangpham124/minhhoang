@@ -10,4 +10,3 @@
 <!--[if lt IE 9]><script src="<?php echo APP_URL; ?>common/js/selectivizr.js"></script><![endif]-->
 <script type="text/javascript" src="<?php echo APP_URL; ?>common/js/smoothscroll.js"></script>
 <script type="text/javascript" src="<?php echo APP_URL; ?>common/js/common.js"></script>
-<?php include(APP_PATH."libs/adv_mod.php"); // javascript for adv ?>

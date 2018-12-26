@@ -1,6 +1,6 @@
 <?php
-include($_SERVER["DOCUMENT_ROOT"] . "/projects/app_config.php");
-include(APP_PATH."libs/header.php"); 
+include($_SERVER["DOCUMENT_ROOT"] . "/minhhoang/app_config.php");
+include(APP_PATH."libs/head.php"); 
 ?>
 </head>
 
@@ -9,7 +9,7 @@ include(APP_PATH."libs/header.php");
 <div id="wrapper">
 <!--===================================================-->
 <!--Header-->
-<?php include(APP_PATH."libs/header2.php"); ?>
+<?php include(APP_PATH."libs/header.php"); ?>
 <!--/Header-->
 
 
