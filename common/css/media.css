@@ -7,4 +7,21 @@
 
 /* Smartphone */
 
-@media only screen and (max-width:767px) {}
+@media only screen and (max-width:767px) {
+    .headSub h2 {
+        font-size: 27px;
+    }
+    .contactContent .leftContact,
+    .contactContent .rightContact {
+        width: 100%;
+    }
+    .contactContent .h3_contact {
+        font-size: 22px;
+    }
+    .contactContent .txtContact {
+        margin-top: 25px;
+    }
+    .contactContent .rightContact {
+        margin: 25px 0 0;
+    }
+}
