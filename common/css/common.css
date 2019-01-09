@@ -1,0 +1,77 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px; }
+
+.container {
+  max-width: 1170px;
+  margin: 0 auto; }
+
+.flexBox {
+  display: flex; }
+  @media screen and (max-width: 767px) {
+    .flexBox-notSp {
+      display: block; } }
+
+.flexBox--center {
+  align-items: center; }
+
+.flexBox--between {
+  justify-content: space-between; }
+
+.flexBox--arround {
+  justify-content: space-around; }
+
+.flexBox--wrap {
+  flex-wrap: wrap; }
+
+.flexBox--nosp {
+  display: block; }
+
+.header {
+  width: 100%;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.5);
+  border-bottom: 1px solid #f2f2f2;
+  height: 80px; }
+  .header .header-inner #logo img {
+    width: 90px; }
+  .header .header-inner .navigation li {
+    padding: 0 20px;
+    position: relative;
+    text-align: center; }
+  .header .header-inner .navigation li.active::after, .header .header-inner .navigation li:hover::after {
+    content: "";
+    width: 100%;
+    height: 3px;
+    background: #639b00;
+    position: absolute;
+    bottom: -31px;
+    left: 0; }
+  .header .header-inner .navigation li.active a, .header .header-inner .navigation li:hover a {
+    color: #639b00 !important; }
+  .header .header-inner .phone .phone-number {
+    color: #333333;
+    font-weight: 600;
+    text-align: center;
+    line-height: 1;
+    padding: 16px;
+    background: #f2f2f2; }
+    .header .header-inner .phone .phone-number .fa {
+      color: #639b00;
+      font-size: 20px; }
+  .header .header-inner .phone .mail {
+    text-align: center;
+    background: #f74616;
+    padding: 10px; }
+    .header .header-inner .phone .mail a {
+      color: #ffffff !important;
+      font-size: 14px; }
+    .header .header-inner .phone .mail .fa {
+      font-size: 20px; }
+
+.footer {
+  background: #1a1a1a; }
+
+.copyright {
+  text-align: center;
+  padding: 28px 0;
+  color: #ffffff; }

@@ -325,129 +325,17 @@ Link
 a:link {
     color: #333;
     text-decoration: none;
+    cursor: pointer;
 }
 
 a:visited {
     color: #333;
     text-decoration: none;
+    cursor: pointer;
 }
 
-a:hover {
-    color: transparent;
-    text-decoration: none;
-    -moz-transition: all 0.26s ease-out;
-    -o-transition: all 0.26s ease-out;
-    -webkit-transition: all 0.26s ease-out;
-    -ms-transition: all 0.26s ease-out;
-}
 
 
 /*==================================================================
 2 Layout setting
 ===================================================================*/
-
-
-/*-----------------------------------------------------------
-Body
--------------------------------------------------------------*/
-
-body {
-    width: 100%;
-    margin: 0;
-    padding: 0;
-    line-height: 1.6;
-    letter-spacing: 0;
-    font-size: 14px;
-    color: #333;
-    min-width: 320px;
-    font-family: 'Bai Jamjuree', sans-serif;
-    overflow-y: hidden;
-}
-
-.pc {
-    display: block;
-}
-
-.sp {
-    display: none;
-}
-
-a {
-    cursor: pointer;
-}
-
-.noDisplay {
-    display: none !important;
-}
-
-.maxW {
-    margin: 0 auto 40px;
-    max-width: 1020px;
-    padding-left: 10px;
-    padding-right: 10px;
-}
-
-
-/*-----------------------------------------------------------
-Header
-------------------------------------------------------------*/
-
-/*-----------------------------------------------------------
-PageTop
-------------------------------------------------------------*/
-
-#pageTop {
-    text-align: right;
-    padding: 10px;
-}
-
-
-/*-----------------------------------------------------------
-Footer
-------------------------------------------------------------*/
-
-#footer {
-    clear: both;
-    width: 100%;
-    margin-top: 125px;
-}
-
-#copyright {
-    text-align: center;
-    border-top: 1px solid #ccc;
-    padding: 10px 0;
-}
-<<<<<<< HEAD
-=======
-
-
-/*---*/
->>>>>>> 3d860d82a3f71ff6c79f653c178b66b6fd3a100f
-
-
-/*---*/
-
-<<<<<<< HEAD
-=======
-.flexBox--nosp {
-    display: block;
-}
-
-
->>>>>>> 3d860d82a3f71ff6c79f653c178b66b6fd3a100f
-/* Smartphone */
-
-@media only screen and (max-width: 767px) {
-    body {
-        font-size: 13px;
-    }
-    .pc {
-        display: none;
-    }
-    .sp {
-        display: block;
-    }
-}
-
-
-/* End Smartphone */

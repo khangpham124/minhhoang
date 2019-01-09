@@ -18,7 +18,8 @@ gulp.task('serve', function() {
             baseDir: "./"
         }
     });
+});
 
-    gulp.watch('./sass/*.scss', ['sass']);
-    gulp.watch('*.html').on('change', reload);
+gulp.task('sass:watch', function() {
+    gulp.watch('./sass/*.scss', gulp.series('sass'));
 });

@@ -1,0 +1,110 @@
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+}
+
+.container {
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+.flexBox {
+    display: flex;
+    &-notSp{
+        @media screen and (max-width: 767px) {
+            display: block;
+        }
+    }
+}
+
+.flexBox--center {
+    align-items: center;
+}
+
+.flexBox--between {
+    justify-content: space-between;
+}
+
+.flexBox--arround {
+    justify-content: space-around;
+}
+
+.flexBox--wrap {
+    flex-wrap: wrap;
+}
+
+.flexBox--nosp {
+    display: block;
+}
+
+.header{
+    //position: fixed;
+    width: 100%;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.5);
+    border-bottom: 1px solid #f2f2f2;
+    height: 80px;
+    .header-inner{
+        #logo {
+            img{
+                width: 90px;
+            }
+        }
+        .navigation{
+            li{
+                padding: 0 20px;
+                position: relative;
+                text-align: center;
+            }
+            li.active, li:hover{
+                &::after{
+                    content: "";
+                    width: 100%;
+                    height: 3px;
+                    background: #639b00;
+                    position: absolute;
+                    bottom: -31px;
+                    left: 0;
+                }
+                a {
+                    color: #639b00 !important;
+                }
+            }
+        }
+        .phone{
+            .phone-number {
+                color: #333333;
+                font-weight: 600;
+                text-align: center;
+                line-height: 1;
+                padding: 16px;
+                background: #f2f2f2;
+                .fa{
+                    color: #639b00;
+                    font-size: 20px;
+                }
+            }
+            .mail{
+                text-align: center;
+                background: #f74616;
+                padding: 10px;
+                a{
+                    color: #ffffff !important; 
+                    font-size: 14px;
+                }
+                .fa {
+                    font-size: 20px;
+                }
+            }
+        }
+    }
+}
+
+.footer{
+    background: #1a1a1a;
+}
+.copyright{
+    text-align: center;
+    padding: 28px 0;
+    color: #ffffff;
+}

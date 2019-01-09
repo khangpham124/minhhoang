@@ -2,39 +2,42 @@
 	
 <!--End Google Tag Manager-->
 
-<header id="header" class="pcDisplay">
-    <h1><?php echo $txtH1; ?></h1>
-    <p id="logo"><a href="<?php echo APP_URL; ?>">LOGO</a></p>
+<header class="header">
+    <div class="container">
+        <div class="header-inner flexBox flexBox--center flexBox--between">
+            <p id="logo">
+                <a href="/">
+                    <img src="<?php echo APP_URL; ?>common/img/logo.png">
+                </a>
+            </p>
+            <div class="navigation flexBox flexBox--center">
+                <ul class="flexBox flexBox--center gNavi">			
+                    <li class="active"><a href="/">Xăng Dầu</a></li>
+                    						
+                    <li><a href="/">Bất Động Sản</a></li>
+                    						
+                    <li><a href="/">Hàng Tiêu Dùng</a></li>
+                </ul>
+            </div>
+            <div class="header-contact flexBox">
+                <div class="phone flexBox">
+                    <div class="phone-number">
+                        <i class="fa fa-phone"></i>
+                        <br>
+                        0918 349 014
+                        <br>
+                        0274 3543 590
+                    </div>
+                    <div class="mail flexBox flexBox--center">
+                        <a href="mailto: nthanhan0604@gmail.com">
+                            <i class="fa fa-envelope-o" aria-hidden="true"></i>
+                            <br>
+                            LIÊN HỆ 
+                        </a>
+                    </div>  
+                </div>
+            </div>
+        </div>
+    </div>
 </header>
 
-
-<div id="spHeader" class="spDisplay clearfix">
-    <p id="spLogo"><a href="<?php echo APP_URL; ?>">LOGO</a></p>
-    <div class="spMenu">
-        <p id="btnMenu">
-            <span class="menuImg"><img src="<?php echo APP_URL; ?>common/img/header/icon_menu.png" alt="" width="45"></span>
-            <span class="closeImg"><img src="<?php echo APP_URL; ?>common/img/header/icon_close.png" alt="" width="45"></span>
-        </p>
-    </div>
-</div>
-
-
-<div id="sideMenu" class="spDisplay">
-    <div id="menuInner">
-        <nav>
-            <ul id="menu">
-            	<li><a href="<?php echo APP_URL; ?>">HOME</a></li>
-                <li><a href="<?php echo APP_URL; ?>troubles/">こんな症状でお悩みですか？</a></li>
-                <li><a href="<?php echo APP_URL; ?>cbt/">認知行動療法とは</a></li>
-                <li><a href="<?php echo APP_URL; ?>medical_care/">診療について</a></li>
-                <li><a href="<?php echo APP_URL; ?>counseling/">カウンセリングについて</a></li>
-                <li><a href="<?php echo APP_URL; ?>about/">当クリニックについて</a></li>
-                <li><a href="<?php echo APP_URL; ?>">スタッフ紹介</a></li>
-                <li><a href="<?php echo APP_URL; ?>">よくある質問</a></li>
-                <li><a href="<?php echo APP_URL; ?>">クリニックブログ</a></li>
-                <li><a href="<?php echo APP_URL; ?>">ニュース</a></li>
-            </ul>
-        </nav>
-        <p class="closeBottom"><span class="btnClose"><img src="<?php echo APP_URL; ?>common/img/header/icon_close_b.png" alt="CLOSE" width="61"></span></p>
-    </div>
-</div>
