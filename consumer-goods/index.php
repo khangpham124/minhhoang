@@ -6,7 +6,7 @@ include(APP_PATH."libs/head.php");
 
 <body id="top">
 <!--===================================================-->
-<div id="wrapper">
+<div id="wrapper" class="wrapper">
 <!--===================================================-->
 <!--Header-->
 <?php include(APP_PATH."libs/header.php"); ?>

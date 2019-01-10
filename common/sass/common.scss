@@ -9,6 +9,11 @@ body {
     margin: 0 auto;
 }
 
+.wrapper{
+    background: url(../img/bg.png) repeat-y;
+    background-size: 100%;
+}
+
 .flexBox {
     display: flex;
     &-notSp{
@@ -45,6 +50,7 @@ body {
     border-bottom: 1px solid #f2f2f2;
     height: 80px;
     .header-inner{
+        background: url(../img/header_pattern.png);
         #logo {
             img{
                 width: 90px;

@@ -1,6 +1,7 @@
 .realty_header {
   height: auto;
-  box-shadow: none; }
+  box-shadow: none;
+  border-bottom: none; }
   .realty_header .info {
     height: 80px;
     align-items: center; }
@@ -74,8 +75,8 @@
         display: none; }
   .realty_header .realty-banner {
     width: 100%;
-    height: 470px;
-    background: url(/minhhoang/img/realty/realty_banner.jpg) no-repeat;
+    height: 490px;
+    background: url(../img/realty/realty_banner.jpg) no-repeat;
     background-size: 100%;
     position: relative; }
     .realty_header .realty-banner-form {
