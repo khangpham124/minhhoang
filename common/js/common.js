@@ -20,16 +20,34 @@ $(document).ready(function(){
 		$("#"+tab_id).addClass('current');
 	});
 
-	$('.js-dropdown > a').on('click',function(event){
+	// $('.js-dropdown > a').on('click',function(event){
     
-		event.preventDefault()
+	// 	event.preventDefault()
 		
-		$(this).parent().toggleClass('open');
+	// 	$(this).parent().toggleClass('open');
 		
-		$(this).parent().find('.dropdown-menu').first().toggle(300);
+	// 	$(this).parent().find('.dropdown-menu').first().toggle(300);
 		
-		$(this).parent().siblings().find('ul').hide(200);
+	// 	$(this).parent().siblings().find('ul').hide(200);
+	// });
+
+	$('.js-dropdown').hover(
+		function(){
+			$('.js-dropdown').removeClass('open')
+			$(this).addClass('open');	
+			$(this).find('.dropdown-menu').first().slideDown(300);	
+			$(this).siblings().find('ul').hide(200);
+		},
+		function(){
+			$(this).removeClass('open');	
+			$(this).find('.dropdown-menu').first().slideUp(300);
+		}
+	)
+	
+	$('.header-hamburger').click(function() {
+		$(this).toggleClass('active');
+		$('.navigation-sp').toggleClass('open');
+		$('#wrapper').toggleClass('menu-open');
 	});
-	  
 
 });

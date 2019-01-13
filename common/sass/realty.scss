@@ -24,7 +24,7 @@
     .menu{
         height: 38px;
         background-color: #132238;
-        &_parents{
+        &_parents, &_sp{
             width: 100%;
             > li{
                 padding: 11px 14px;
@@ -99,6 +99,44 @@
                 display: none;
             }
         }
+        &_sp{
+            border-top: 1px solid #f2f2f2;
+            > li{
+                padding: 20px 30px;
+                font-size: 15px;
+                position: relative;
+                a{
+                    color: #000000;
+                }
+                &::before{
+                    content: none;
+                }
+            }
+            li.dropdown{
+                position: relative;
+                &::after {
+                    border-left: 6px solid transparent;
+                    border-right: 6px solid transparent;
+                    border-top: 8px solid #000000;
+                    right: 30px;
+                    top: 25px;
+                }
+                &.open{
+                    padding-bottom: 0;
+                }
+            }
+            ul.dropdown-menu{
+                position: relative;
+                width: 100%;
+                z-index: 1;
+                background: #ffffff;
+                top: 5px;
+                box-shadow: none !important;
+            }
+            ul.dropdown-menu li{
+                padding: 10px;
+            }
+        }
     }
     .realty-banner{
         width: 100%;
@@ -106,9 +144,18 @@
         background: url(../img/realty/realty_banner.jpg) no-repeat;
         background-size: 100%;
         position: relative;
+        @media screen and (max-width: 767px) {
+            height: 250px;
+            background-size: cover;
+        }
         &-form{
             position: absolute;
             bottom: 0;
+            @media screen and (max-width: 767px) {
+                position: relative;
+                top: 200px;
+                bottom: unset;
+            }
             .tabs{
                 margin: 0px;
                 padding: 0px;
@@ -128,6 +175,11 @@
                 border-radius: 5px 5px 0 0;
                 text-align: center;
                 margin-right: 5px;
+                @media screen and (max-width: 767px) {
+                    width: 100%;
+                    display: block;
+                    border-radius: 0;
+                }
             }
             .tabs li:hover {
                 background: #639b00;
@@ -141,6 +193,9 @@
                 background: #ffffff;
                 padding: 15px;       
                 line-height:1.4;
+                @media screen and (max-width: 767px) {
+                    padding: 0;
+                }
                 form {
                     .input-text{
                         border: 1px solid #f2f2f2;
@@ -151,6 +206,9 @@
                         height: 40px;
                         width: 74.5%;
                         border-radius: 5px;
+                        @media screen and (max-width: 767px) {
+                            width: 100%;
+                        }
                     }
                     .input-select {
                         height: 38px;
@@ -166,6 +224,9 @@
                         background-position: calc(100% - 20px) calc(1em + 2px), calc(100% - 15px) calc(1em + 2px), calc(100% - 2.5em) 0.5em;
                         background-size: 5px 5px, 5px 5px, 1px 1.5em;
                         background-repeat: no-repeat;
+                        @media screen and (max-width: 767px) {
+                            width: 100%;
+                        }
                     }
                     .button-submit {
                         width: 23%;
@@ -175,6 +236,11 @@
                         background: #f74616;
                         margin-top: 10px;
                         border-radius: 5px;
+                        @media screen and (max-width: 767px) {
+                            width: 72%;
+                            margin: 25px auto 0;
+                            display: block;
+                        }
                     }
                     .note{
                         font-size: 12px;
@@ -191,6 +257,10 @@
 
 .realty-sidebar{
     width: 31.5%;
+    @media screen and (max-width: 767px) {
+        width: 100%;
+        margin-top: 55px;
+    }
     &-box + &-box{
         margin-top: 40px;
     }
@@ -316,9 +386,15 @@
 }
 .realty-body{
     margin-top: 100px;
+    @media screen and (max-width: 767px) {
+       margin-top: 780px;
+    }
 }
 .realty-contents {
     width: 65%;
+    @media screen and (max-width: 767px) {
+        width: 100%;
+    }
 }
 .realty-list{
     margin-top: 10px;
@@ -327,6 +403,9 @@
     width: 48%;
     border: 1px solid #f2f2f2;
     margin-bottom: 20px;
+    @media screen and (max-width: 767px) {
+        width: 100%;
+    }
     .text{
         padding: 20px;
         p{
@@ -393,10 +472,28 @@
                 }
             }
         }
+        @media screen and (max-width: 767px) {
+            height: auto;
+            ul {
+                li {
+                    text-align: center;
+                    &::before {
+                        content: none;
+                    }
+                }
+            }
+        }
     }
 }
 .realty-footer-block{
     width: 33.3333%;
+    @media screen and (max-width: 767px) {
+        width: 100%;
+        padding: 0 30px;
+        & + & {
+            padding-top: 60px;
+        }
+    }
     h1{
         color: #ffffff;
         font-weight: 600;
@@ -415,6 +512,9 @@
     ul{
         margin-top: 25px;
         padding-right: 80px;
+        @media screen and (max-width: 767px) {
+            padding: 0;
+        }
         li{
             line-height: 1.8;
             a{
