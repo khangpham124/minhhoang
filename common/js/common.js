@@ -50,4 +50,12 @@ $(document).ready(function(){
 		$('#wrapper').toggleClass('menu-open');
 	});
 
+	$(window).scroll(function (event) {
+		var scroll = $(window).scrollTop();
+		if (scroll > 100){
+			$('.js-menu').addClass('active');
+		} else {
+			$('.js-menu').removeClass('active');
+		}
+	});
 });
