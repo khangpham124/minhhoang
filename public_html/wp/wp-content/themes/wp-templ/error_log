@@ -1,0 +1,36 @@
+[18-Feb-2019 06:52:50 UTC] PHP Fatal error:  Uncaught Error: Class 'WP_Query' not found in /home/min93874/public_html/wp/wp-content/themes/wp-templ/index.php:143
+Stack trace:
+#0 {main}
+  thrown in /home/min93874/public_html/wp/wp-content/themes/wp-templ/index.php on line 143
+[22-Feb-2019 02:49:50 UTC] PHP Fatal error:  Uncaught Error: Class 'WP_Query' not found in /home/min93874/public_html/wp/wp-content/themes/wp-templ/index.php:143
+Stack trace:
+#0 {main}
+  thrown in /home/min93874/public_html/wp/wp-content/themes/wp-templ/index.php on line 143
+[24-Feb-2019 16:21:29 UTC] PHP Fatal error:  Uncaught Error: Class 'WP_Query' not found in /home/min93874/public_html/wp/wp-content/themes/wp-templ/index.php:143
+Stack trace:
+#0 {main}
+  thrown in /home/min93874/public_html/wp/wp-content/themes/wp-templ/index.php on line 143
+[26-Feb-2019 01:57:48 UTC] PHP Fatal error:  Uncaught Error: Class 'WP_Query' not found in /home/min93874/public_html/wp/wp-content/themes/wp-templ/index.php:143
+Stack trace:
+#0 {main}
+  thrown in /home/min93874/public_html/wp/wp-content/themes/wp-templ/index.php on line 143
+[02-Mar-2019 03:10:23 UTC] PHP Fatal error:  Uncaught Error: Class 'WP_Query' not found in /home/min93874/public_html/wp/wp-content/themes/wp-templ/index.php:143
+Stack trace:
+#0 {main}
+  thrown in /home/min93874/public_html/wp/wp-content/themes/wp-templ/index.php on line 143
+[03-Mar-2019 10:46:25 UTC] PHP Fatal error:  Uncaught Error: Class 'WP_Query' not found in /home/min93874/public_html/wp/wp-content/themes/wp-templ/index.php:143
+Stack trace:
+#0 {main}
+  thrown in /home/min93874/public_html/wp/wp-content/themes/wp-templ/index.php on line 143
+[04-Mar-2019 05:53:49 UTC] PHP Fatal error:  Uncaught Error: Class 'WP_Query' not found in /home/min93874/public_html/wp/wp-content/themes/wp-templ/index.php:143
+Stack trace:
+#0 {main}
+  thrown in /home/min93874/public_html/wp/wp-content/themes/wp-templ/index.php on line 143
+[04-May-2019 03:13:56 UTC] PHP Fatal error:  Uncaught Error: Class 'WP_Query' not found in /home/min93874/public_html/wp/wp-content/themes/wp-templ/index.php:143
+Stack trace:
+#0 {main}
+  thrown in /home/min93874/public_html/wp/wp-content/themes/wp-templ/index.php on line 143
+[23-May-2019 06:24:45 UTC] PHP Fatal error:  Uncaught Error: Class 'WP_Query' not found in /home/min93874/public_html/wp/wp-content/themes/wp-templ/index.php:143
+Stack trace:
+#0 {main}
+  thrown in /home/min93874/public_html/wp/wp-content/themes/wp-templ/index.php on line 143
